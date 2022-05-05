@@ -27,7 +27,7 @@ Feito com as seguinte tecnologias:
 
 # 🏃 Como iniciar o projeto?
 
-1. Esta disponível pelo seguinte link:
+1. Esta disponível pelo seguinte link: http://mauricioandreolla.github.io/
 
 
 
