@@ -1,0 +1,167 @@
+html,
+body,
+#home {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background: url(./img/imagens/capa.png), url(./img//imagens/ruido.png), linear-gradient(50deg, #fd1b4c, #7c26f8);
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/* Header */
+
+.navbar-transparente {
+    padding: 17px 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-nav a {
+    color: white;
+}
+
+.navbar-nav a:hover {
+    color: #9bf0e1;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.divisor {
+    width: 1px;
+    background-color: white;
+    margin: 12px 12px;
+}
+
+
+/* Home */
+
+#home h1 {
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 500;
+}
+
+.btn-custom {
+    border-radius: 500px;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 15px;
+}
+
+.btn-custom-primary {
+    background-color: #7c26f8;
+}
+
+.btn-custom-primary:hover {
+    background-color: #6207e3;
+    color: white;
+}
+
+.btn-custom-secondary {
+    border: 2px solid white;
+}
+
+.btn-custom-secondary:hover {
+    background: white;
+    color: black;
+}
+
+
+/* Services */
+
+#services {
+    background-color: whitesmoke;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+#services h2,
+h3 {
+    color: #7c26f8;
+}
+
+#services h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.05em;
+}
+
+
+/*  Features */
+
+#features {
+    margin-top: 15px;
+    color: whitesmoke;
+}
+
+#features h3 {
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+#features .img-rotation {
+    transform: rotate(30deg);
+    padding-left: 70px;
+}
+
+
+/*  Footer */
+
+#footer {
+    background-color: black;
+    padding: 40px 0px 30px 0px;
+    position: relative;
+    color: white;
+}
+
+#footer a {
+    padding: 0;
+    font-size: 0.8em;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 2em;
+    }
+    a {
+        margin-top: 10px;
+        border-radius: 200px;
+    }
+    #footer .col-md-2 {
+        margin-top: 5px;
+    }
+    #footer .col-md-2 h5 {
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1 {
+        font-size: 4em;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    h1 {
+        font-size: 5em;
+    }
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 6em;
+    }
+}
